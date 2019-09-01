@@ -11,7 +11,8 @@ tags:
 
 ## Hexo 目录结构简介
 
-![image-20190819223109220](/Users/daniel/Library/Application Support/typora-user-images/image-20190819223109220.png)
+![cqrs-single-Model](https://i.postimg.cc/L6dJD3W1/files-In-Hexo.png)
+
 
 
 
