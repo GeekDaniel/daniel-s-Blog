@@ -14,7 +14,7 @@ CQRS 是指将读模型和写模型分离，从而可以分而治之。减少局
 
 ### 初期架构
 
-![image-20190901035329545](/Users/daniel/Library/Application Support/typora-user-images/image-20190901035329545.png)
+![cqrs-single-Model](https://i.postimg.cc/FKXNSTCP/cqrs-single-Model.png)
 
 
 
@@ -26,7 +26,7 @@ CQRS 是指将读模型和写模型分离，从而可以分而治之。减少局
 
 单model 模型的决定可能根据**Command model**(负责写入) + **Intergretion point Model**(一个可以较中立的满足所有展示层的Model)
 
-![image-20190901042102415](/Users/daniel/Library/Application Support/typora-user-images/image-20190901042102415.png)
+![cqrs-complex-Representation](https://i.postimg.cc/0yw9rTnM/cqrs-complex-Representation.png)
 
 #### 带来的问题
 
@@ -36,7 +36,9 @@ CQRS 是指将读模型和写模型分离，从而可以分而治之。减少局
 
 ## CQRS架构下的解决方案(模型分离)
 
-![image-20190901042755935](/Users/daniel/Library/Application Support/typora-user-images/image-20190901042755935.png)
+![cqrs-split-Model](https://i.postimg.cc/GpPrxvZb/cqrs-split-Model.png)
+
+
 
 ### 优点
 
